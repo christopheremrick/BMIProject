@@ -25,5 +25,11 @@ public class Main {
 
     // Calculations and output
 
+        Double height = (feet/3.2808)+(inches*25.4);
+
+        Double kg = weight/2.2046;
+
+        System.out.println("Okay, your BMI is "+(kg/(height*height)));
+
     }
 }
