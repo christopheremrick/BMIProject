@@ -19,9 +19,11 @@ public class Main {
         Integer feet = scan.nextInt();
 
         System.out.println("Okay. Next type the remaining inches.");
-
+        Integer inches = scan.nextInt();
         System.out.println("Next, please type your weight in pounds. Using decimals is fine.");
+        Float weight = scan.nextFloat();
 
+    // Calculations and output
 
     }
 }
