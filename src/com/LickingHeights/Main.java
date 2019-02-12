@@ -15,13 +15,13 @@ public class Main {
         System.out.println("Well hello "+name+", it's nice to meet you. ");
 
         System.out.println("I'm here to calculate your BMI. Please type your height in feet.");
-        System.out.println(" Don't worry about inches, that is the next question");
-        Integer inches = scan.nextInt();
+        System.out.println("Don't worry about inches, that is the next question");
+        Integer feet = scan.nextInt();
 
         System.out.println("Okay. Next type the remaining inches.");
 
         System.out.println("Next, please type your weight in pounds. Using decimals is fine.");
-        
+
 
     }
 }
